@@ -1,0 +1,20 @@
+{
+  "name": "uploadcsv",
+  "version": "0.0.0",
+  "authors": [
+    "sravan <sreddy@gsngames.com>"
+  ],
+  "description": "uploading csv file",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css": "~3.3.6",
+    "jquery": "~3.0.0"
+  }
+}
