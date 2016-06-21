@@ -1,0 +1,20 @@
+{
+  "name": "display list of albums",
+  "version": "0.0.0",
+  "authors": [
+    "sravan <sreddy@gsngames.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "javascripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.5.7",
+    "angular-modal-service": "~0.10.1"
+  }
+}
