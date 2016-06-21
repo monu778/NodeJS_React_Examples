@@ -1,10 +1,10 @@
 # uploadcsv_apiforalbum
 
 Written services for
-
 * uploading csv file  (url : http://localhost:3111)
 * getting list of Albumns by Artist Name(url:http://localhost:3111/api/albumlist?name=Hariharan)
-* gitting list of Collections in Album (url:http://localhost:3111/api/trackList?id=903969009)
+* gitting list of Collections in Album (url: http://localhost:3111/api/trackList?id=903969009)
+* UI of dispalying Albums( http://localhost:3111/index.html)
 
 # Technologies Used
 
