@@ -1,6 +1,6 @@
 # uploadcsv_apiforalbum
 
-Written services for
+ Main Features
 * uploading csv file  (url : http://localhost:3111)
 * getting list of Albumns by Artist Name(url:http://localhost:3111/api/albumlist?name=Hariharan)
 * gitting list of Collections in Album (url: http://localhost:3111/api/trackList?id=903969009)
@@ -13,7 +13,7 @@ Written services for
 * Angularjs( implemented for listing Albums and collections)
 * Bootstrap 
 
-# Project Requirements and setup
+# Project setup in local
 
 * install nodejs
 * git clone https://github.com/monu778/uploadcsv_apiforalbum
@@ -23,3 +23,6 @@ Written services for
 * bower  install (this bower install for installing dependencies in view/lib folder)
 * cd public
 * bower install ((this bower install for installing dependencies in javascipr/lib folder)
+
+# Status
+* still in porgresss need to develop some part of UI( displaying collections in model window not working properly) need to develop
