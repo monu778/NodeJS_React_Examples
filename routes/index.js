@@ -54,7 +54,7 @@ router.post('/upload', uploads, function(req, res,next) {
               }
               count++;
           }).on('end',function(data) {
-              res.render("audiolist",{list:jsonObj})
+              res.render("audiolist",{list:jsonData})
           });
       }
   });
