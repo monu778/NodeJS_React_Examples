@@ -19,8 +19,6 @@
 * git clone https://github.com/monu778/uploadcsv_apiforalbum
 * cd uploadcsv_apiforalbum
 * npm install
-* npm install bower
-* bower  install (this bower install for installing dependencies in view/lib folder)
 * cd public
 * bower install ((this bower install for installing dependencies in javascipr/lib folder)
 
