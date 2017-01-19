@@ -10,7 +10,7 @@
 # Technologies Used
 
 * Nodejs
-* ReactJS(implemented only for uploading csv)
+* ReactJS(implemented only for circular graph & uploading csv)
 * Angularjs( implemented for listing Albums and collections)
 * Bootstrap 
 
@@ -23,5 +23,3 @@
 * cd public
 * bower install ((this bower install for installing dependencies in javascipr/lib folder)
 
-# Status
-* still in porgresss need to develop some part of UI( displaying collections in model window not working properly) need to develop
