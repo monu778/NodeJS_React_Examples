@@ -17,8 +17,8 @@
 # Project setup in local
 
 * install nodejs
-* git clone https://github.com/monu778/uploadcsv_apiforalbum
-* cd uploadcsv_apiforalbum
+* git clone https://github.com/monu778/NodeJS_React_Examples
+* cd NodeJS_React_Examples
 * npm install
 * cd public
 * bower install ((this bower install for installing dependencies in javascipr/lib folder)
