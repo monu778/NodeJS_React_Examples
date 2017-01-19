@@ -28,7 +28,7 @@ var uploads = multer({
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render("main",{});
+  res.render("main1",{});
 });
 
 router.post('/upload', uploads, function(req, res,next) {
