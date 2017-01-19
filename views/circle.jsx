@@ -5,6 +5,7 @@ import React from 'react';
 import mixin from './defaultpops';
 
 export default React.createClass({
+    
     mixins: [mixin],
     render() {
         const {
@@ -29,37 +30,33 @@ export default React.createClass({
 
         return (
             <svg
-        width="300" height="75"
-        viewBox="0 0 300 75"
-        style={style}
-        {...restProps}
-    >
+            width="300" height="75"
+            viewBox="0 0 300 75"
+            style={style}
+            {...restProps}
+            >
                 <g>
+                    <path
 
-
-    <path
-
-        d={pathString}
-        stroke={trailColor}
-        strokeWidth={trailWidth || strokeWidth}
-        fillOpacity="0">
-        </path>
-            <path
-
-        d={pathString}
-        strokeLinecap={strokeLinecap}
-        stroke={strokeColor}
-        strokeWidth={strokeWidth}
-        fillOpacity="0"
-        ref={(path) => { this.path = path; }}
-        style={pathStyle}
-            />
-
+                        d={pathString}
+                        stroke={trailColor}
+                        strokeWidth={trailWidth || strokeWidth}
+                        fillOpacity="0">
+                    </path>
+                    <path
+                        d={pathString}
+                        strokeLinecap={strokeLinecap}
+                        stroke={strokeColor}
+                        strokeWidth={strokeWidth}
+                        fillOpacity="0"
+                        ref={(path) => { this.path = path; }}
+                        style={pathStyle}
+                    />
                     <text x="45" y="55"  text-anchor="middle" stroke="#51c5cf" strokeWidth="0.1px" dy=".1em">{percent}</text>
 
                 </g>
             </svg>
 
-    );
+       );
     },
 });
