@@ -2,7 +2,7 @@
  * Created by sravan on 18/01/17.
  */
 import React from 'react';
-import mixin from './defaultpops';
+import mixin from './defaultProps';
 
 export default React.createClass({
     
