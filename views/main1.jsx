@@ -2,20 +2,15 @@
  * Created by sravan on 17/01/17.
  */
 
-
-import Line from './Line';
 import Circle from './Circle';
 //const ReactDOM = require('react-dom');
 import React from 'react';
 import ReactDOM from 'react-dom'
 
-
-
 class CircleGraph extends React.Component {
     render() {
-
-
-        return (<html>
+        return (
+        <html>
         <head>
             <title>Circle Graph</title>
             <link href="/javascripts/lib/bootstrap-css/css/bootstrap.min.css" rel="stylesheet"></link>
@@ -27,19 +22,16 @@ class CircleGraph extends React.Component {
                 Showing graph
             </div>
             <div className="panel-body">
-             <div><Circle strokeWidth="2" percent="58" /></div>
+                <div><Circle strokeWidth="2" percent="58" /></div>
                 <div><Circle strokeWidth="2" percent="8" /></div>
                 <div><Circle strokeWidth="2" percent="12" /></div>
-            </div></div>
+            </div>
+        </div>
         <script dangerouslySetInnerHTML={{__html: `
-
 `}} />
         </body>
-            </html>
-                );
-
+        </html>
+        );
     }
 }
-
-
 export default CircleGraph;
