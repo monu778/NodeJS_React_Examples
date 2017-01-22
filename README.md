@@ -2,7 +2,11 @@
 
  Main Features
  
-* Checking circular graph  (url : http://localhost:3111)
+* Checking circular graph  (url : public/main.html)
+* ./node_modules/babel-cli/bin/babel.js --presets es2015 --plugins transform-react-jsx public/javascript/*.jsx --out-dir ./build
+* ./node_modules/gulp/bin/gulp.js bundle
+
+######
 * getting list of Albumns by Artist Name(url:http://localhost:3111/api/albumlist?name=Hariharan)
 * gitting list of Collections in Album (url: http://localhost:3111/api/trackList?id=903969009)
 * UI of dispalying Albums( http://localhost:3111/index.html)
